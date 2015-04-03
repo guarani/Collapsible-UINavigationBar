@@ -40,64 +40,10 @@
             </objects>
             <point key="canvasLocation" x="2510" y="429"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="nzp-Fl-i0X">
-            <objects>
-                <navigationController id="qmd-LS-YJJ" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wEt-93-3vk">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="3bB-Sm-LZ2" kind="relationship" relationship="rootViewController" id="lER-I1-mZH"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ncz-jB-2H5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="70" y="439"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="WUp-ck-nKq">
-            <objects>
-                <viewController id="3bB-Sm-LZ2" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oHa-f3-XXN"/>
-                        <viewControllerLayoutGuide type="bottom" id="0Mp-Jq-AIX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Q28-K3-4il">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k39-d0-bil">
-                                <rect key="frame" x="50" y="35" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Va-p5-wlW">
-                                <rect key="frame" x="55" y="95" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="MGh-la-k4s" kind="custom" id="4kJ-KT-T0r"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="xPs-Jh-cwW"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MeD-bh-eDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="925" y="429"/>
-        </scene>
-        <!--Navigation Controller-->
+        <!--Collapsible Bar Navigation Controller-->
         <scene sceneID="Kkr-iK-Ihb">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MGh-la-k4s" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MGh-la-k4s" customClass="PVSCollapsibleBarNavigationController" customModule="TestShrinkingNavBar" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mFo-0R-VFt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
