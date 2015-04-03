@@ -14,6 +14,7 @@
 		32C4F12A1ACC11E400DBAA6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C4F1281ACC11E400DBAA6E /* LaunchScreen.xib */; };
 		32C4F1361ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F1351ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift */; };
 		32C4F1401ACC379C00DBAA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F13F1ACC379C00DBAA6E /* ViewController.swift */; };
+		32C4F1421ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F1411ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		32C4F1341ACC11E400DBAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C4F1351ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShrinkingNavBarTests.swift; sourceTree = "<group>"; };
 		32C4F13F1ACC379C00DBAA6E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32C4F1411ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVSCollapisbleNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				32C4F1261ACC11E400DBAA6E /* Images.xcassets */,
 				32C4F1281ACC11E400DBAA6E /* LaunchScreen.xib */,
 				32C4F11D1ACC11E400DBAA6E /* Supporting Files */,
+				32C4F1411ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift */,
 			);
 			path = TestShrinkingNavBar;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C4F1421ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift in Sources */,
 				32C4F1401ACC379C00DBAA6E /* ViewController.swift in Sources */,
 				32C4F1221ACC11E400DBAA6E /* TestViewController.swift in Sources */,
 				32C4F1201ACC11E400DBAA6E /* AppDelegate.swift in Sources */,

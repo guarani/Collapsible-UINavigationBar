@@ -14,13 +14,42 @@ let defaultNavigationBarTitleFontSize: CGFloat = 20.0
 let shrinkBy: CGFloat = 25.0
 
 
+import ObjectiveC
+
+// Declare a global var to produce a unique address as the assoc object handle
+var AssociatedObjectHandle: UInt8 = 0
+
+extension UIViewController {
+    var stringProperty:String {
+        get {
+            return objc_getAssociatedObject(self, &AssociatedObjectHandle) as String
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedObjectHandle, newValue, objc_AssociationPolicy(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+        }
+    }
+}
+
 
 extension UINavigationBar {
-    
     public override func sizeThatFits(size: CGSize) -> CGSize {
         return CGSizeMake(self.superview!.frame.size.width, currentNavigationBarHeight)
     }
 }
+
+//// Declare a global var to produce a unique address as the assoc object handle
+//var AssociatedObjectHandle: UInt8 = 0
+//
+//extension UIViewController {
+//    var stringProperty:String {
+//        get {
+//            return objc_getAssociatedObject(self, &AssociatedObjectHandle) as String
+//        }
+//        set {
+//            objc_setAssociatedObject(self, &AssociatedObjectHandle, newValue, objc_AssociationPolicy(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+//        }
+//    }
+//}
 
 class TestViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
     
@@ -31,6 +60,7 @@ class TestViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         defaultNavigationBarHeight = self.navigationController!.navigationBar.frame.size.height
+    
         
         self.customTitleLabel.text = "Hello, mundo!"
         self.customTitleLabel.font = UIFont.boldSystemFontOfSize(defaultNavigationBarTitleFontSize)
