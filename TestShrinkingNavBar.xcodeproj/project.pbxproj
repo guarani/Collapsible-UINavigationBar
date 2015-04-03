@@ -86,6 +86,7 @@
 				32C4F1261ACC11E400DBAA6E /* Images.xcassets */,
 				32C4F1281ACC11E400DBAA6E /* LaunchScreen.xib */,
 				32C4F11D1ACC11E400DBAA6E /* Supporting Files */,
+				32C4F1411ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift */,
 			);
 			path = TestShrinkingNavBar;
 			sourceTree = "<group>";
