@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		325E72EB1ACF5F7200BD4635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E72EA1ACF5F7200BD4635 /* ViewController.swift */; };
+		325E72ED1ACF5F8800BD4635 /* UINavigationController+CollapsableNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E72EC1ACF5F8800BD4635 /* UINavigationController+CollapsableNavigationBar.swift */; };
 		32C4F1201ACC11E400DBAA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F11F1ACC11E400DBAA6E /* AppDelegate.swift */; };
-		32C4F1221ACC11E400DBAA6E /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F1211ACC11E400DBAA6E /* TestViewController.swift */; };
 		32C4F1251ACC11E400DBAA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C4F1231ACC11E400DBAA6E /* Main.storyboard */; };
 		32C4F1271ACC11E400DBAA6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C4F1261ACC11E400DBAA6E /* Images.xcassets */; };
 		32C4F12A1ACC11E400DBAA6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C4F1281ACC11E400DBAA6E /* LaunchScreen.xib */; };
 		32C4F1361ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C4F1351ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift */; };
-		32D92D391ACDFF0C00BF65A2 /* PVSCollapsibleBarNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D92D381ACDFF0C00BF65A2 /* PVSCollapsibleBarNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		325E72EA1ACF5F7200BD4635 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		325E72EC1ACF5F8800BD4635 /* UINavigationController+CollapsableNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+CollapsableNavigationBar.swift"; sourceTree = "<group>"; };
 		32C4F11A1ACC11E400DBAA6E /* TestShrinkingNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestShrinkingNavBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C4F11E1ACC11E400DBAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C4F11F1ACC11E400DBAA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32C4F1211ACC11E400DBAA6E /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		32C4F1241ACC11E400DBAA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32C4F1261ACC11E400DBAA6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		32C4F1291ACC11E400DBAA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		32C4F12F1ACC11E400DBAA6E /* TestShrinkingNavBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestShrinkingNavBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C4F1341ACC11E400DBAA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C4F1351ACC11E400DBAA6E /* TestShrinkingNavBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShrinkingNavBarTests.swift; sourceTree = "<group>"; };
-		32D92D381ACDFF0C00BF65A2 /* PVSCollapsibleBarNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PVSCollapsibleBarNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				32C4F11F1ACC11E400DBAA6E /* AppDelegate.swift */,
-				32D92D381ACDFF0C00BF65A2 /* PVSCollapsibleBarNavigationController.swift */,
-				32C4F1211ACC11E400DBAA6E /* TestViewController.swift */,
+				325E72EA1ACF5F7200BD4635 /* ViewController.swift */,
+				325E72EC1ACF5F8800BD4635 /* UINavigationController+CollapsableNavigationBar.swift */,
 				32C4F1231ACC11E400DBAA6E /* Main.storyboard */,
 				32C4F1261ACC11E400DBAA6E /* Images.xcassets */,
 				32C4F1281ACC11E400DBAA6E /* LaunchScreen.xib */,
 				32C4F11D1ACC11E400DBAA6E /* Supporting Files */,
-				32C4F1411ACC3F0700DBAA6E /* PVSCollapisbleNavigationBar.swift */,
 			);
 			path = TestShrinkingNavBar;
 			sourceTree = "<group>";
@@ -216,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32C4F1221ACC11E400DBAA6E /* TestViewController.swift in Sources */,
-				32D92D391ACDFF0C00BF65A2 /* PVSCollapsibleBarNavigationController.swift in Sources */,
+				325E72ED1ACF5F8800BD4635 /* UINavigationController+CollapsableNavigationBar.swift in Sources */,
+				325E72EB1ACF5F7200BD4635 /* ViewController.swift in Sources */,
 				32C4F1201ACC11E400DBAA6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

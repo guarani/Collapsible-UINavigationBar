@@ -1,4 +1,4 @@
-A Swift `UINavigationController` subclass to add a collapsable `UINavigationBar` when scrolling inside the top view controller.
+A Swift extension that add a collapsable `UINavigationBar` when scrolling content.
 
 ![alt tag](demo1.gif)
 
@@ -7,10 +7,17 @@ A Swift `UINavigationController` subclass to add a collapsable `UINavigationBar`
 In your view controller that contains scrollable content (i.e. a `UIScrollView` or something that contains one, like a `UITableView`) implement the UIScrollViewDelegate:
 
 ```
-class TestViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
 ```
 
-Then, inside your view controller, implement the following delegate method, and call `pvs_collapsibleBarScrollViewDidScroll` passing in the `UIScrollView` instance:
+Then, inside your view controller, add this to the end of `viewDidLoad:`:
+
+```
+// Set up the collapsible bar.
+self.navigationController?.pvs_collapsibleBar()
+```
+
+Then implement the following UIScrollViewDelegate method like so:
 
 ```
 //#pragma - mark UIScrollViewDelegate
