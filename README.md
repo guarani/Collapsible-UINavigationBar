@@ -1,10 +1,9 @@
 A Swift extension that add a collapsable `UINavigationBar` when scrolling content.
 
-![alt tag](demo1.gif)
+![alt tag](demo.gif)
 
 ## Usage
 
-Use a `PVSCollapsibleBarNavigationController` instead of a `UINavigationController` in your project.
 In your view controller that contains scrollable content (i.e. a `UIScrollView` or something that contains one, like a `UITableView`) implement the UIScrollViewDelegate:
 
 ```
